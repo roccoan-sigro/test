@@ -101,11 +101,15 @@
         <div class="container" style="background-color:white">
           <input type="text" placeholder="Nome" name="Full Name" required>
           <input type="text" placeholder="Indirizzo email" name="Email Address" required>
-          <label>
-            <input type="checkbox" value="sub_add_update" name="SubAction"> Privacy
-          </label>
         </div>
-      
+
+        <div> <h3>Consenso privacy</h3> <br>
+            <input type="radio" id="Yes" name="SubAction" value="sub_add_update" checked="yes">
+            <label for="Yes">Accetto le condizioni</label><br>
+            <input type="radio" id="No" name="SubAction" value="none">
+            <label for="No">Non accetto le condizioni</label><br>
+        </div>
+
         <div class="container">
           <input type="submit" value="Submit">
         </div>
